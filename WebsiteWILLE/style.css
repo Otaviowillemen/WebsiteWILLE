@@ -17,10 +17,13 @@ margin: 0px;}
 .solicitar{
     display: block;
     padding: 10px;
-    color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.075);
+    align-items: center;
+}
+a{
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size:large;
+    font-size:large;  
 }
     
 nav{
@@ -30,23 +33,37 @@ nav{
     padding: 10px;
 }
 nav ul li{
-    decoration: none;
-    padding: 5px;
-    display: inline-block;
-
+    
+    padding: 10px;
+    display: inline;
 }
 .botao{
     background-color: black;
     color: white;
-    padding: 15px;
-    display:inline-block;
-    text-decoration: none;
-    font-size: large;
-    font-weight: 600;
-    border-radius: 10px
+    padding: 13px; 
+    border-radius: 8px
 
 }
-nav ul{
-    padding: 5px;
-    display: inline-block;
+section{
+display: grid;
+margin: 10px;
+padding: 0px 40px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 70vh;
 }
+aside{
+    font-size: 4em;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+aside p {
+    font-size: 0.5em;
+}
+.ilustra{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
