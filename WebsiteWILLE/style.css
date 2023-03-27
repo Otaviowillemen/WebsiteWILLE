@@ -1,14 +1,11 @@
-@charset "utf-8"
-
-@font-face{
-    font-family: 'wille';
-    src: url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Black.otf) format(opentype), 
-    url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Bold.ttf) format(truetype), 
-    url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Light.otf) format(opentype),
-    url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Regular.ttf) format(truetype);
-    font-weight: normal;
-    font-style: normal;
-}
+@charset "utf-8";
+@font-face{font-family:'wille';
+src: url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Black.otf) format(opentype), 
+url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Bold.ttf) format(truetype), 
+url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Light.otf) format(opentype),
+url(/WebsiteWILLE/Fontes/Myriad\ Pro\ Regular.ttf) format(truetype);
+font-weight: normal;
+font-style: normal;}
 
 *{font-family: 'wille', Helvetica, sans-serif;
 padding: 0px;
